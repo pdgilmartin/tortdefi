@@ -10,7 +10,6 @@ import {
   DefaultHeaderComponent,
   DefaultLayoutComponent
 } from './default-layout';
-import { CoinComponent } from './common/coin/coin.component';
 
 const APP_CONTAINERS = [
   DefaultAsideComponent,
@@ -22,8 +21,7 @@ const APP_CONTAINERS = [
 @NgModule({
   declarations: [
     AppComponent,
-    ...APP_CONTAINERS,
-    CoinComponent
+    ...APP_CONTAINERS
   ],
   imports: [
     BrowserModule,

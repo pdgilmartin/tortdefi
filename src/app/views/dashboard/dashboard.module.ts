@@ -4,6 +4,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 
 import { DashboardRoutingModule } from './dashboard-routing.module';
 import { DashboardComponent } from './dashboard.component';
+import { CoinComponent } from '../../common/coin/coin.component';
 
 @NgModule({
   imports: [
@@ -11,7 +12,7 @@ import { DashboardComponent } from './dashboard.component';
     CommonModule,
     ReactiveFormsModule,
   ],
-  declarations: [DashboardComponent]
+  declarations: [DashboardComponent, CoinComponent]
 })
 export class DashboardModule {
 }
