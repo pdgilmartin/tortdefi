@@ -120,7 +120,7 @@
 // $medium-emphasis-dark:  rgba(shift-color($gray-base, +26), .6);
 // $disabled-dark:         rgba(shift-color($gray-base, +26), .38);
 
-// $high-emphasis-light:    rgba($white, .87);
+$high-emphasis-light: rgba($white, .87);
 // $medium-emphasis-light:  rgba($white, .6);
 // $disabled-light:         rgba($white, .38);
 
@@ -130,7 +130,7 @@
 
 // Customize the light and dark text colors for use in our color contrast function.
 // $color-contrast-dark:      $high-emphasis-dark;
-// $color-contrast-light:     $high-emphasis-light;
+$color-contrast-light: $high-emphasis-light;
 
 // fusv-disable
 // $blue-100: tint-color($blue, 80%);
@@ -310,7 +310,7 @@
 // Settings for the `<body>` element.
 
 // $body-bg:                   $white;
-// $body-color:                $high-emphasis-dark;
+$body-color: $high-emphasis-light;
 // $body-text-align:           null;
 
 

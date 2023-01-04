@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
 
 import {
   DefaultAsideComponent,
@@ -11,6 +10,7 @@ import {
   DefaultHeaderComponent,
   DefaultLayoutComponent
 } from './default-layout';
+import { CoinComponent } from './common/coin/coin.component';
 
 const APP_CONTAINERS = [
   DefaultAsideComponent,
@@ -22,8 +22,8 @@ const APP_CONTAINERS = [
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent,
-    ...APP_CONTAINERS
+    ...APP_CONTAINERS,
+    CoinComponent
   ],
   imports: [
     BrowserModule,
